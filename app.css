@@ -1,0 +1,177 @@
+html {
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1 rem = a 10 pixeles*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+
+
+    background-color: rgb(203 213 225);
+
+}
+
+
+
+/* Globales*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+
+    font-size: 4rem;
+    padding: 10rem 0 0 0;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+
+/**ERROR**/
+.error {
+    background-color: rgb(201, 38, 38);
+    text-align: center;
+    margin: .4rem 0;
+    color: #FFF;
+    padding: .5rem;
+}
+
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/*form*/
+
+.main-mail {
+    max-width: 80rem;
+}
+
+
+.main-form {
+
+    padding: 2rem;
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.main-form fieldset {
+    background: #FFF;
+    padding: 3rem;
+
+
+    border: 1px solid #e1e1e1;
+    border-radius: .5rem;
+}
+
+
+.campo {
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-form legend {
+    text-align: center;
+    width: 100%;
+    background-color: #003488;
+    color: #FFF;
+    padding: 1rem;
+}
+
+.campo input,
+textarea {
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #e1e1e1;
+}
+
+.campo-boton {
+    display: flex;
+
+
+    gap: 2rem;
+
+}
+
+
+
+
+.campo-boton button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.btn-red {
+    background-color: #DB2777;
+    flex: 1;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.icon-small {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.btn-black {
+    background-color: #000;
+    flex: 1;
+    color: #FFF;
+    text-align: center;
+
+}
+
+/*Alerta Exito*/
+
+.exito {
+    background-color: #4bed23;
+    color: #FFF;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+}
